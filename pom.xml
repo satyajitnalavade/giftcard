@@ -135,14 +135,23 @@
 					<execution>
 						<id>java-compile</id>
 						<phase>compile</phase>
-						<goals> <goal>compile</goal> </goals>
+						<goals>
+							<goal>compile</goal>
+						</goals>
 					</execution>
 					<execution>
 						<id>java-test-compile</id>
 						<phase>test-compile</phase>
-						<goals> <goal>testCompile</goal> </goals>
+						<goals>
+							<goal>testCompile</goal>
+						</goals>
 					</execution>
 				</executions>
+			</plugin>
+			<plugin>
+				<groupId>com.lazerycode.selenium</groupId>
+				<artifactId>driver-binary-downloader-maven-plugin</artifactId>
+				<version>1.0.12</version>
 			</plugin>
 		</plugins>
 	</build>
