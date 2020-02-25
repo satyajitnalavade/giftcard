@@ -15,3 +15,5 @@ The reason for this is when we want to get the current state of event-sourced ag
 we have to apply all sourced events - we have to invoke @EventSourcingHandlers. 
 
 
+
+![Alt text](/Untitled%20Diagram.png?raw=true "Optional Title")
